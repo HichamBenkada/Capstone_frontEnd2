@@ -15,26 +15,26 @@
 }
 
 .swiper-slide:nth-child(1n) {
-    background-image: url('/bk1.jpg');
+    background-image: url('src/assets/banner-books/bk1.jpg');
     background-size:cover;
   }
   
 .swiper-slide:nth-child(2n) {
-    background-image: url('/bk2.jpg');
+    background-image: url('src/assets/banner-books/bk2.jpg');
     background-size:cover;  
   }
 
 .swiper-slide:nth-child(3n) {
-    background-image: url('/bk3.jpg');
+    background-image: url('src/assets/banner-books/bk3.jpg');
     background-size:cover;  
   }
   
 .swiper-slide:nth-child(4n) {
-    background-image: url('/bk4.jpg');
+    background-image: url('src/assets/banner-books/bk4.jpg');
     background-size:cover;  
   }
 
 .swiper-slide:nth-child(5n) {
-    background-image: url('/bk5.jpg');
+    background-image: url('src/assets/bk5.jpg');
     background-size:cover;  
   } 
