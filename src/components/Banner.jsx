@@ -7,7 +7,7 @@ const Banner = () => {
     <div className="px-4 lg:px-24 bg-teal-100 flex items-center">
       <div className="flex w-full flex-col md:flex-row justify-between items-center gap-12 py-40">
         {/* leftSide banner */}
-        <div className="md:w-1/2 space-y-4 h-full">
+        <div className="md:w-1/2 space-y-8 h-full">
           <h2 className="text-4xl font-bold leading-snug">
             Find Your Favorite Books 
             <span className="text-blue-700"> With Best Prices</span>

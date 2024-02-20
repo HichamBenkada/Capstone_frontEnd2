@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 
-//import books component
-import FavBooksList from "./favBooks/FavBooksList";
+import FavBooksList from "./FavBooksList";
 
 const FavBooks = () => {
   const [books, setBooks] = useState([]);
@@ -24,13 +23,10 @@ const FavBooks = () => {
     getBooksDB();
   }, []);
   return (
-    <div>
-      {loading ? (
-        <FavBooksList books={books} headline="Best Seller Books" />
-      ) : (
-        ""
-      )}
-    </div>
+    <>
+      <h1 className="text-4xl font-bold leading-snug">Best Sellers' Books</h1>
+      <FavBooksList books={books}/>
+    </>
   );
 };
 
