@@ -61,7 +61,7 @@ const Navbar = () => {
           <div>
             {/* logo */}
             <Link
-              to="/"
+              to="http://localhost:5174/"
               className="text-2xl font-bold text-blue-700 flex items-center gab-1"
             >
               <FaBlog className="inline-block" />

@@ -6,6 +6,7 @@ const SearchBar = ({ setSearch }) => {
   const handleEnter = (e) => {
     if (e.key === "Enter") {
       setSearch(searchRef.current.value);
+      searchRef.current.value = "";
     }
   };
 
@@ -21,7 +22,10 @@ const SearchBar = ({ setSearch }) => {
       />
       <button
         className="bg-blue-500 px-6 py-2 text-white font-medium hover:bg-black transition-all ease-in duration-300"
-        onClick={(e) => setSearch(searchRef.current.value)}
+        onClick={(e) => {
+          setSearch(searchRef.current.value);
+          searchRef.current.value = "";
+        }}
       >
         <TfiSearch />
       </button>

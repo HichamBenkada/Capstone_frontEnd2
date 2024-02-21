@@ -6,7 +6,7 @@ const BookCard = ({ books }) => {
   // console.log(books);
   return(
     <>
-    <h1 className="py-100 text-4xl font-bold leading-snug"> Best Books Results </h1>
+    <h1 className="text-4xl font-bold leading-snug"> Best Books Results </h1>
     {
       books.map((item) => {
         return(
