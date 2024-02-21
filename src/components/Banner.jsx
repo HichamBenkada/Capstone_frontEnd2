@@ -2,7 +2,7 @@ import React from "react";
 import BannerCards from "./banner/BannerCards";
 import SearchBar from "./banner/SearchBar";
 
-const Banner = () => {
+const Banner = ({setSearch}) => {
 
   return (
     <div className="px-4 lg:px-24 bg-teal-100 flex items-center">
@@ -19,7 +19,7 @@ const Banner = () => {
             qui! Fuga ea dolorum tenetur nobis explicabo, incidunt rem nihil
             ullam?
           </p>
-          <SearchBar />
+          <SearchBar setSearch={ setSearch }/>
         </div>
       </div>
 

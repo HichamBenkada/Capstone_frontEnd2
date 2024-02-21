@@ -1,0 +1,31 @@
+
+.container{
+    top:200px;
+    width: 65%;
+    margin: 0 auto;
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,0.5fr));
+    grid-gap:20px;
+    box-sizing: border-box;
+  }
+  
+  .card{
+    position: relative;
+    background-color: var(--sec-color);
+    border-radius: 10px;
+    padding: 0.5rem;
+    box-shadow: 0 5px 5px rbga(212,185,150,.5);
+    transition: .5s;
+    text-align: center;
+  }
+  .card img{
+    width: 80%;
+    height: 200px;
+    border-radius: 1rem 1rem 0 0;
+  }
+  
+  .card:hover{
+    transform: scale(0.8);
+    background-color: rgba(255,255,255,0.8);
+  }
